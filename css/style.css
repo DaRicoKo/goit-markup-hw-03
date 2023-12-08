@@ -4,6 +4,9 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
+img {
+  display: block;
+}
 /* header */
 .hero-header {
   border-bottom: 1px solid #e7e9fc;
@@ -34,6 +37,7 @@ body {
 }
 .links {
   display: flex;
+  gap: 40px;
 }
 .logo-text {
   color: #2e2f42;
