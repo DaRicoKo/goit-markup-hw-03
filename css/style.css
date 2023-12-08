@@ -117,6 +117,18 @@ img {
 .services-section {
   padding: 120px 0;
 }
+.visually-hidden {
+  visibility: hidden;
+}
+.text-description {
+  display: flex;
+}
+.list-item {
+  margin-right: 24px;
+}
+.list-item-last {
+  margin-right: 0;
+}
 .section-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -130,9 +142,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.visually-hidden {
-  
-}
+
 /* section-3 */
 .logo-title {
   background-color: #f4f4fd;
