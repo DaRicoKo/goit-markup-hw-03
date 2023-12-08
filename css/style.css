@@ -95,14 +95,19 @@ img {
   color: #ffffff;
 }
 .button {
+  display: block; 
+  min-width: 169px;
+  height: 56px;
+  border: none;
   background-color: #4d5ae5;
+  border-radius: 4px; 
+  cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
 }
 .button:hover,
 .button:focus {
