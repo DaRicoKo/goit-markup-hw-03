@@ -109,6 +109,9 @@ img {
   background-color: #404bbf;
 }
 /* section-2 */
+.services-section {
+  padding: 120px 0;
+}
 .section-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -121,6 +124,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.visually-hidden {
+  
 }
 /* section-3 */
 .logo-title {
