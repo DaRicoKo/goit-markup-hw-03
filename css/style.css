@@ -11,17 +11,17 @@ img {
 .hero-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container{
+.header-container {
   display: flex;
 }
 .container {
-  width: 1158px; 
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
 .header-nav {
-  display:flex;
-  align-items: center; 
+  display: flex;
+  align-items: center;
   color: #4d5ae5;
 }
 .link-logo {
@@ -37,8 +37,6 @@ img {
 }
 .links {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .menu-item {
   margin-right: 40px;
@@ -57,7 +55,6 @@ img {
 .header-link {
   font-style: normal;
 }
-
 
 .header-list-item-link {
   font-size: 16px;
@@ -85,9 +82,12 @@ img {
 /* section-1 */
 .logo-title-one {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-title {
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -95,7 +95,13 @@ img {
   color: #ffffff;
 }
 .button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
