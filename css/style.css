@@ -146,8 +146,10 @@ img {
 /* section-3 */
 .logo-title {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .section-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -155,8 +157,15 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.sectin-item-menu {
+  display: flex;
+}
 .section-item {
   background-color: #ffffff;
+  margin-right: 24px;
+}
+.section-item-last {
+  margin-right: 0;
 }
 
 /* footer */
