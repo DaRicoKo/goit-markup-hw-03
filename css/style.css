@@ -53,10 +53,11 @@ img {
 }
 
 .header-link {
-  font-style: normal;
-  padding-top: 24px; 
+  padding-top: 24px;
   padding-bottom: 24px;
+  font-style: normal;
 }
+
 
 .header-list-item-link {
   font-size: 16px;
