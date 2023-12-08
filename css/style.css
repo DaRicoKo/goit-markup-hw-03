@@ -37,7 +37,12 @@ img {
 }
 .links {
   display: flex;
-  gap: 40px;
+}
+.menu-item {
+  margin-right: 40px;
+}
+.menu-item-last {
+  margin-right: 0;
 }
 .logo-text {
   color: #2e2f42;
@@ -49,6 +54,8 @@ img {
 
 .header-link {
   font-style: normal;
+  padding-top: 24px; 
+  padding-bottom: 24px;
 }
 
 .header-list-item-link {
