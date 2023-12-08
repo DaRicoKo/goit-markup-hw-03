@@ -4,7 +4,21 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
+/* header */
+.hero-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+  display: flex;
+}
+.container {
+  width: 1158px; 
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
 .header-nav {
+  display:flex;
+  align-items: center; 
   color: #4d5ae5;
 }
 .link-logo {
@@ -16,6 +30,10 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
+}
+.links {
+  display: flex;
 }
 .logo-text {
   color: #2e2f42;
