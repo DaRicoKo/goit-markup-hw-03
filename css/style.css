@@ -37,6 +37,8 @@ img {
 }
 .links {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-item {
   margin-right: 40px;
@@ -53,8 +55,6 @@ img {
 }
 
 .header-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
   font-style: normal;
 }
 
