@@ -156,6 +156,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  
 }
 .sectin-item-menu {
   display: flex;
@@ -163,10 +164,22 @@ img {
 .section-item {
   background-color: #ffffff;
   margin-right: 24px;
+  border-radius: 0px 0px 4px 4px; 
+}
+.contact-info {
+  padding: 32px 0;
+}
+.section-item-title-company-name {
+  text-align: center; 
+  margin-bottom: 8px;
+}
+.section-description-business-card {
+  text-align: center; 
 }
 .section-item-last {
   margin-right: 0;
 }
+
 
 /* footer */
 .footer {
