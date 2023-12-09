@@ -118,6 +118,7 @@ img {
 .services-section {
   padding: 120px 0;
 }
+/* visual */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -135,9 +136,9 @@ img {
   display: flex;
   gap: 24px;
 }
-/* check the class for size */
+
 .list-item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .section-item-title {
