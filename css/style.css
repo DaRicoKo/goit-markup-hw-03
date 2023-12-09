@@ -133,8 +133,9 @@ img {
   display: flex;
   gap: 24px; 
 }
+/* check the class for size */
 .list-item {
-  width: 82;
+  width: 82px;
 }
 
 .section-item-title {
@@ -166,8 +167,10 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
 }
+/* fix here */
 .sectin-item-menu {
   display: flex;
+  gap: 24px; 
 }
 .section-item {
   background-color: #ffffff;
