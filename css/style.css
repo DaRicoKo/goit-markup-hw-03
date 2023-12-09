@@ -11,17 +11,17 @@ img {
 .hero-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container{
+.header-container {
   display: flex;
 }
 .container {
-  width: 1158px; 
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
 .header-nav {
-  display:flex;
-  align-items: center; 
+  display: flex;
+  align-items: center;
   color: #4d5ae5;
 }
 .link-logo {
@@ -37,7 +37,6 @@ img {
 }
 .links {
   display: flex;
-
 }
 .menu-item {
   margin-right: 40px;
@@ -56,7 +55,6 @@ img {
 .header-link {
   font-style: normal;
 }
-
 
 .header-list-item-link {
   font-size: 16px;
@@ -97,11 +95,11 @@ img {
   color: #ffffff;
 }
 .button {
-  display: block; 
+  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
-  border-radius: 4px; 
+  border-radius: 4px;
   background-color: #4d5ae5;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
@@ -147,7 +145,7 @@ img {
 
 /* section-3 */
 .logo-title {
-  background: var(--CLOUD, #F4F4FD);
+  background: var(--CLOUD, #f4f4fd);
   padding: 120px 0;
 }
 .section-title {
@@ -157,7 +155,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42; 
+  color: #2e2f42;
 }
 .sectin-item-menu {
   display: flex;
@@ -165,17 +163,17 @@ img {
 .section-item {
   background-color: #ffffff;
   margin-right: 24px;
-  border-radius: 0px 0px 4px 4px; 
+  border-radius: 0px 0px 4px 4px;
 }
 .contact-info {
   padding: 32px 0;
 }
 .section-item-title-company-name {
-  text-align: center; 
+  text-align: center;
   margin-bottom: 8px;
 }
 .section-description-business-card {
-  text-align: center; 
+  text-align: center;
 }
 .section-item-last {
   margin-right: 0;
@@ -183,9 +181,14 @@ img {
 /* section-4 */
 
 .logo-title {
-  background-color: #FFF;;
+  background-color: #fff;
 }
-
+.sectin-item-submenu {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 
 /* footer */
 .footer {
