@@ -136,7 +136,6 @@ img {
   display: flex;
   gap: 24px;
 }
-
 .list-item {
   margin-right: 24px;
 }
@@ -170,7 +169,7 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.sectin-item-menu {
+.section-item-menu {
   display: flex;
   gap: 24px;
 }
