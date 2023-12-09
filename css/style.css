@@ -130,14 +130,12 @@ img {
 
 .text-description {
   display: flex;
+  gap: 24px; 
 }
 .list-item {
   width: 82;
-  margin-right: 24px;
 }
-.list-item {
-  margin-right: 0;
-}
+
 .section-item-title {
   margin-bottom: 8px; 
   font-weight: 500;
