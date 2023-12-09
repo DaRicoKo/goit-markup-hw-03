@@ -118,16 +118,17 @@ img {
 .services-section {
   padding: 120px 0;
 }
-/* visual */
 .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .text-description {
@@ -136,8 +137,6 @@ img {
 }
 /* check the class for size */
 .list-item {
-
-  /* or */
   width: calc((100% - 72px) / 4);
 }
 
