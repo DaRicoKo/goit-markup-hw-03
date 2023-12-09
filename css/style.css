@@ -147,7 +147,7 @@ img {
 
 /* section-3 */
 .logo-title {
-  background-color: #f4f4fd;
+  background: var(--CLOUD, #F4F4FD);
   padding: 120px 0;
 }
 .section-title {
@@ -182,7 +182,9 @@ img {
 }
 /* section-4 */
 
-
+.logo-title {
+  background-color: #FFF;;
+}
 
 
 /* footer */
