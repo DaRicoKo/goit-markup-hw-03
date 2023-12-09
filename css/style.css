@@ -133,7 +133,7 @@ img {
 }
 
 .text-description {
-  flex-wrap: wrap;
+
   display: flex;
   gap: 24px;
 }
