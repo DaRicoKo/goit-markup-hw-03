@@ -37,6 +37,7 @@ img {
 }
 .links {
   display: flex;
+  gap: 40px;
 }
 .menu-item {
   margin-right: 40px;
