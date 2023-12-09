@@ -41,7 +41,7 @@ img {
 .menu-item {
   margin-right: 40px;
 }
-.menu-item-last {
+.menu-item {
   margin-right: 0;
 }
 .logo-text {
@@ -132,12 +132,14 @@ img {
   display: flex;
 }
 .list-item {
+  width: 82;
   margin-right: 24px;
 }
-.list-item-last {
+.list-item {
   margin-right: 0;
 }
 .section-item-title {
+  margin-bottom: 8px; 
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
